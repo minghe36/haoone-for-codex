@@ -1,0 +1,20 @@
+{
+  "name": "haoone-for-codex-local",
+  "interface": {
+    "displayName": "Haoone 字幕助手"
+  },
+  "plugins": [
+    {
+      "name": "haoone-for-codex",
+      "source": {
+        "source": "local",
+        "path": "./plugins/haoone-for-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

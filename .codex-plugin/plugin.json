@@ -1,0 +1,50 @@
+{
+  "name": "haoone-for-codex",
+  "version": "1.0.0",
+  "description": "Haoone 字幕工作流插件，基于 qwen3-asr 提供音视频转录、批量转录、文稿匹配、格式化文稿、热词管理、项目管理、翻译与双语字幕等能力。",
+  "author": {
+    "name": "haoone",
+    "url": "https://www.haoai.pro/haoone"
+  },
+  "homepage": "https://github.com/minghe36/haoone-for-codex",
+  "repository": "https://github.com/minghe36/haoone-for-codex",
+  "license": "MIT",
+  "keywords": [
+    "haoone",
+    "subtitle",
+    "transcription",
+    "asr",
+    "audio",
+    "video",
+    "srt",
+    "caption",
+    "qwen3-asr",
+    "batch-transcribe",
+    "manuscript",
+    "hotwords"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "type": "cli",
+    "displayName": "Haoone 字幕助手",
+    "shortDescription": "音视频转录、字幕生成、文稿匹配、热词管理、项目管理等字幕工作流。",
+    "longDescription": "Haoone 字幕工作流插件，为 Codex 提供完整的字幕处理能力。基于 qwen3-asr 本地模型，支持单文件/批量转录、文稿匹配与格式化、热词管理、项目创建与管理、翻译与双语字幕等功能。需要安装 Haoone 桌面端并启动 CLI。",
+    "developerName": "haoone",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://www.haoai.pro/haoone",
+    "privacyPolicyURL": "https://www.haoai.pro/haoone/privacy",
+    "termsOfServiceURL": "https://www.haoai.pro/haoone/terms",
+    "defaultPrompt": [
+      "/haoone transcribe /path/to/media.mp4",
+      "/haoone batch-transcribe /path/to/a.mp3,/path/to/b.mp4",
+      "帮我把这个视频转成字幕"
+    ],
+    "brandColor": "#4f46e5",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg"
+  }
+}
